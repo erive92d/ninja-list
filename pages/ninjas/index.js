@@ -2,7 +2,7 @@ import { useState } from "react";
 import { getAllUsers } from "../api/hello";
 import Link from "next/link";
 import styles from "../../styles/ninjas.module.css";
-
+//comment
 export const getStaticProps = async () => {
   const allUsers = await getAllUsers();
 
